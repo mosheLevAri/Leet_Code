@@ -1,0 +1,54 @@
+.home-page {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.ExerciseCard {
+  width: 25%;
+  border: 1px solid transparent;
+  left: 4%;
+  box-shadow: 0px 0px 14px 5px #888888a6;
+  padding-top: 5px;
+  border-radius: 20px;
+  display: flex;
+  margin: 5px 10px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.ExerciseCard:hover {
+  background-color: #b8b4b430;
+  transform: translate3d(0px, 5px, 0);
+  transition: 0.15s;
+}
+
+.exercise-details {
+  display: flex;
+}
+
+.exercise-difficulty {
+  margin-right: 10px;
+}
+
+.welcome-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4%;
+}
+
+.exercisePage {
+  display: flex;
+}
+
+.ExecriseQuestion {
+  width: 45vw;
+}
+
+.details-wrapper {
+  overflow-wrap: break-word;
+
+}
+
